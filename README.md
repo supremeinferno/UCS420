@@ -16,6 +16,7 @@ This repository contains my UCS420 assignments, written as Jupyter notebooks in 
 | 5 | NumPy array operations | [Assignment5.ipynb](assignment-5/Assignment5.ipynb) |
 | 6 | NumPy (temperature data analysis) | [Assignment6.ipynb](assignment-6/Assignment6.ipynb) |
 | 7 | NLP text preprocessing | [Assignment7.ipynb](assignment-7/Assignment7.ipynb) |
+| 8 | NLP: tokenization, stemming and lemmatization, BoW and TF-IDF, text similarity, sentiment analysis, LSTM text generation | [assignment8.ipynb](assignment-8/assignment8.ipynb) (Q1–5), [assignment8(6th question).ipynb](assignment-8/assignment8%286th%20question%29.ipynb) (Q6) |
 
 ## Tech used
 
@@ -24,11 +25,16 @@ This repository contains my UCS420 assignments, written as Jupyter notebooks in 
 - Pandas
 - NLTK
 - Matplotlib
+- scikit-learn
+- TextBlob
+- VADER Sentiment
+- WordCloud
+- TensorFlow / Keras
 
 ## Running the notebooks
 
 ```bash
-pip install numpy pandas nltk matplotlib jupyter
+pip install numpy pandas nltk matplotlib scikit-learn textblob vaderSentiment wordcloud tensorflow jupyter
 jupyter notebook
 ```
 
